@@ -62,4 +62,4 @@ def success():
 
 if __name__ == "__main__":
     init_db()  # Initialize the database on startup
-    app.run(debug=True)
+    app.run(debug=False)
