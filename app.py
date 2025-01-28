@@ -62,4 +62,5 @@ def success():
 
 if __name__ == "__main__":
     init_db()  # Initialize the database on startup
-    app.run(debug=False)
+    app.run(debug=False, host="0.0.0.0", port=5000)
+
